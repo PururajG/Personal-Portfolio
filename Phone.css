@@ -1,0 +1,465 @@
+/*------------------ Css code for android -------------- */
+
+
+
+/*------------------------------------------Css for the 700px display screen------------------------------------------*/
+
+@media only screen and (max-width:700px) {
+
+  
+
+    header .navigation {
+        justify-content: space-between;
+
+    }
+
+    .navigation .logo {
+        font-size: 20px;
+    }
+
+    .nav-links ul {
+        /* display: none; */
+        background-color: #ff5e41;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        width: 200px;
+        padding-top: 50px;
+        z-index: 10;
+        transition: all 0.5s;
+    }
+
+    .nav-links ul a {
+        display: block;
+        margin: 25px;
+
+    }
+
+    .nav-links ul>li {
+        color: #02ff45;
+    }
+
+
+
+    .cross-arrow {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+
+    .menu-arrow,
+    .cross-arrow {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .left h1 {
+
+        font-size: 30px;
+
+    }
+
+    .left .para-title {
+        font-size: 12px;
+
+    }
+
+    .left a {
+        font-size: 15px;
+    }
+
+    /* .right img {
+        height: 12em;
+        width: 8em;
+    } */
+
+
+
+    /*-------- About section for 700px responsive-------- */
+
+
+    /* .about {
+        border: 1px solid rgb(50, 50, 50);
+        padding: 82px 40px;
+    } */
+
+    .bio-data-left img {
+        flex-basis: fill;
+    }
+
+
+    .tav-contents ul li {
+        font-size: 13px;
+        color: rgba(198, 201, 198, 0.748);
+    }
+
+    .tav-contents-details {
+        font-size: 12px;
+    }
+
+
+    .Sec-heading {
+        font-size: 2em;
+    }
+
+    .About-heading p {
+        font-size: 12px;
+    }
+
+    .About-heading::after {
+        left: 60px;
+        height: 3px;
+    }
+
+    .services-heading::after {
+        left: 240px;
+        height: 3px;
+    }
+
+    .Resume-heading::after {
+        left: 215px;
+        height: 3px;
+    }
+
+    .Contact-heading::after {
+        left: 190px;
+        height: 3px;
+        width: 4%;
+    }
+
+    .Footer-heading::after {
+        left: 240px;
+        height: 3px;
+    }
+
+    /* .protext:hover h1 {
+        transform: translateY(-400%);
+
+    } */
+
+    /* -------Contact us here------- */
+
+
+
+    form input {
+        flex-basis: 50%;
+
+    }
+
+
+    /* form button {
+        width: 59%;
+        position: relative;
+        left: 8px;
+
+    } */
+
+}
+
+
+
+/*------------------------------------------Css for the 470px display screen------------------------------------------*/
+
+@media only screen and (max-width:470px) {
+    header {
+        background: url(./Images/home\ Phone\ .png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header-ditails {
+        position: absolute;
+        top: 7em;
+        left: 1.5em;
+    }
+
+
+    .left h1 {
+        font-size: 28px;
+    }
+
+    .left a {
+        font-size: 15px;
+        position: relative;
+        top: 15px;
+    }
+
+
+    /* .right img {
+        height: 8em;
+        width: 5em;
+    } */
+
+
+    /*-------- About section for 470px responsive-------- */
+    .navigation .logo {
+        font-size: 17px;
+    }
+
+
+    #About {
+        margin-top: 3%;
+        font-size: 22px;
+
+    }
+
+    .bio-data-left,
+    .bio-data-right {
+
+        flex-basis: 80%;
+    }
+
+    .bio-data-left img {
+        width: 80%;
+        height: 400px;
+    }
+
+    .tav-contents ul li {
+        font-size: 0.7em;
+
+    }
+
+    .tav-contents-details {
+        font-size: 0.7em;
+    }
+
+    .Sec-heading {
+        font-size: 1.5em;
+    }
+
+    .Sec-heading p {
+        font-size: 12px;
+    }
+
+    .protext p {
+        font-size: 10px;
+
+    }
+
+    .protext h2 {
+
+        font-size: 15px;
+    }
+
+    .protext a i {
+        font-size: 10px;
+    }
+
+    .protext a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+
+    }
+
+
+    /* .menu-arrow img{
+      font-size: 15px;
+    } */
+
+
+    /* .protext:hover h1 {
+        transform: translateY(-200%);
+    
+    } */
+
+    .services-list div {
+        padding: 50px 20px;
+        margin: 5px auto;
+        /* font-size: 10px; */
+
+    }
+
+    .services-list div i {
+        font-size: 35px;
+    }
+
+    .services-list div h2 {
+        font-size: 22px;
+
+    }
+
+    .services-list div a {
+        font-size: 10px;
+
+    }
+
+    small {
+        font-size: 11px;
+        margin-top: -45px;
+        margin-left: 20%;
+    }
+
+    /*--------- Fooooter here--------- */
+
+    .footer .social-acc a {
+        font-size: 12px;
+        padding: 4px 12px;
+        text-align: center;
+
+    }
+
+    .footer .social-acc a i {
+        font-size: 12px;
+    }
+
+    .top-arrow img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+/*------------------------------------------Css for the 360px display screen------------------------------------------*/
+
+@media only screen and (max-width:360px) {
+
+
+    .navigation .logo {
+        font-size: 13px;
+    }
+
+
+    .header-ditails {
+        position: absolute;
+        top: 8em;
+        left: 1em;
+    }
+
+
+    .left h1 {
+        font-size: 15px;
+    }
+
+    .left .para-title {
+        font-size: 7px;
+
+    }
+
+    .left a {
+        font-size: 8px;
+        position: relative;
+        top: 0px;
+    }
+
+   
+
+
+    /*----------- About section for 460px responsive----------- */
+    .bio-data-left img {
+        height: 250px;
+        width: 250px;
+    }
+
+    /* .about {
+
+        padding: 82px 180px;
+    } */
+
+
+    .bio-data-right p {
+        font-size: 0.4em;
+    }
+
+    .tav-contents ul li {
+        font-size: 0.5em;
+
+    }
+
+    .tav-titles p {
+
+        margin: 0 20px 0 0px;
+    }
+
+    .tav-contents-details {
+        font-size: 0.5em;
+    }
+
+
+    /* form input,
+    textarea {
+        width: 100%;
+        position: relative;
+        left: -40%;
+    } */
+
+    /* form button {
+        width: 89%;
+        position: relative;
+        left: -28%;
+
+    } */
+
+    small {
+        font-size: 8px;
+        margin-top: -45px;
+        margin-left: 12%;
+    }
+
+    .top-arrow img {
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+    }
+
+
+
+    .footer .copywrite p,
+    copy {
+        font-size: 10px;
+
+    }
+}
+
+
+
+
+
+/*------------------------------------------Css for the 250px display screen------------------------------------------*/
+
+@media only screen and (max-width:250px) {
+    /* 
+    .header-ditails {
+        position: absolute;
+        top: 8em;
+        left: 1em;
+    }
+
+
+    .left h1 {
+        font-size: 15px;
+    }
+
+    .left .para-title {
+        font-size: 7px;
+
+    }
+
+    .left a {
+        font-size: 7px;
+        position: relative;
+        top: 0px;
+    }
+ */
+
+
+
+}
+
+
+/*------------------------------------------Css for the 600px display screen------------------------------------------*/
+
+@media only screen and (max-width:600px) {
+
+    header {
+        background: url(./Images/home\ Phone\ .png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+} 
